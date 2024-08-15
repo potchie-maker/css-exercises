@@ -12,6 +12,10 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  padding: 8px;
+  /* align-items: center; */
+  justify-content: space-between;
 }
 
 .profile-image {
@@ -20,6 +24,7 @@ body {
   border-radius: 50%;
   width: 48px;
   height: 48px;
+  flex-shrink: 0;
 }
 
 .logo {
@@ -45,4 +50,26 @@ a {
 
 ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 16px;
+}
+
+.nav {
+  display: flex;
+  gap: 16px;
+  
+  /* this worked, but didn't technically use flex, so it broke the 
+  rules of the exercise
+   margin-right: auto; */
+
+  /* flex-grow: 1; */
+  align-items: center;
+}
+
+.noti-pro {
+  display: flex;
+  gap: 16px;
+  align-items: center;
 }
