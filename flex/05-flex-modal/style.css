@@ -21,7 +21,7 @@ body {
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   padding: 15px;
   gap: 15px;
 }
@@ -85,10 +85,10 @@ button.cancel {
   align-items: center;
 }
 
-.prompts {
+/* .prompts {
   display: flex;
   gap: 5px;
-}
+} */
 
 .header {
   font-size: 20px;
